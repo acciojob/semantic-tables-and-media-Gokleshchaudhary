@@ -1,2 +1,52 @@
 
 /* Your CSS Code here. */
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Heading Styles */
+h2 {
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+/* Ordered List Styles */
+ol {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/* Media Styles */
+img, video, audio {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+}
